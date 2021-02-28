@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}#cal{
+    width: 320px;
+    height: 520px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 5px;
+}#result{
+    height: 120px;
+}#keys{
+    height: 400px;
+}#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+}#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    padding-top: 0px;
+    font-size: 30px;
+    background-color: white;
+}.operator, .number{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}.operator:focus, .number:focus{
+    outline: 0;
+}
